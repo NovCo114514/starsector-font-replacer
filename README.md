@@ -308,8 +308,4 @@ EXE 只包含程序代码和 Python 运行时依赖，不会打包 `.venv`、`ou
 
 ## 参考文件
 
-项目不会内置伪造的 Starsector 原版 `.fnt`。请自行从你的 Starsector 安装或可用资源中放入：
-
-```text
-reference/orbitron12.fnt
-```
+项目不会内置伪造的 Starsector 原版 `.fnt`。请自行从你的 Starsector 安装或可用资源中放入。
