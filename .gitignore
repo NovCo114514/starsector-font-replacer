@@ -38,3 +38,7 @@ reference/*.fnt
 .idea/
 .DS_Store
 Thumbs.db
+
+# Python package metadata
+*.egg-info/
+src/*.egg-info/

@@ -1,5 +1,0 @@
-Pillow>=10
-fonttools>=4
-
-[exe]
-pyinstaller>=6
