@@ -1,0 +1,7 @@
+[console_scripts]
+starsector-fontgen = starsector_fontgen.cli:main
+starsector-fontgen-analyze-fontlib = starsector_fontgen.analyze_cli:main
+starsector-fontgen-build-pack = starsector_fontgen.build_pack_cli:main
+starsector-fontgen-filter-charset = starsector_fontgen.filter_cli:main
+starsector-fontgen-gui = starsector_fontgen.gui:main
+starsector-fontgen-rebuild-fontlib = starsector_fontgen.rebuild_cli:main

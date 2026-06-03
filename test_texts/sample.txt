@@ -1,0 +1,9 @@
+﻿开始游戏
+继续游戏
+设置
+舰船 武器 护盾 装甲
+第十三独立舰队正在接近目标区域。
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789
+，。！？《》（）【】—— → ← ★ ☆

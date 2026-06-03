@@ -1,0 +1,40 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Generated outputs
+output/
+output*/
+output_*/
+output_stage*/
+output_release/
+replacement_fonts/
+rebuilt_*/
+logs/
+backups/
+*.zip
+
+# Third-party / copyrighted / user-provided resources
+ttf/
+*.ttf
+*.otf
+*.fnt
+*.png
+existing_cn_fontlib/
+reference/orbitron12.fnt
+reference/*.fnt
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

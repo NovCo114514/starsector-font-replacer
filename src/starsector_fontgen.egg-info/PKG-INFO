@@ -1,15 +1,20 @@
+Metadata-Version: 2.4
+Name: starsector-fontgen
+Version: 0.1.0
+Summary: Generate Starsector-compatible AngelCode BMFont files from TTF/OTF fonts.
+Author: Starsector FontGen Contributors
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow>=10
+Requires-Dist: fonttools>=4
+Provides-Extra: exe
+Requires-Dist: pyinstaller>=6; extra == "exe"
+
 # Starsector 中文字体替换工具
 
 这个项目是 Starsector 中文字体替换工具 / 外部字体 MOD 工具。当前重点是 Windows 外部工具：分析现有字体库、过滤目标字体支持字符、重建同名覆盖式字体文件，并在用户确认后备份和替换 `starsector-core\graphics\fonts`。
 
 工具不内置任何字体文件，也不内置任何 Starsector 文件。字体、原字体库、Starsector 路径和输出目录都由用户在 GUI 或命令行中选择。
-
-## 素材与版权边界
-
-- 本项目不内置任何 Starsector 文件、游戏字体库、汉化包文件或生成物。
-- 本项目不内置任何 `.ttf` / `.otf` 字体文件；用户需要自行提供有合法使用权的字体。
-- 用户需要自行提供文本版 AngelCode BMFont 参考文件 `reference/orbitron12.fnt`，工具只读取它来模仿 Starsector 原版 `.fnt` 的 block 结构和字段顺序。
-- 本工具仅用于本地字体转换、备份和替换测试；不会自动上传、分发或修改任何真实 Starsector 安装目录。
 
 ## 安装
 
